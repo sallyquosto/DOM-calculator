@@ -7,33 +7,33 @@
 </head>
 <body>
 
-<div id="mainContainer">
-    <input type="text" id="value1" name="value1" value=""/>
-    -
-    <input type="text" id="value2" name="value2" value=""/>
-    =
+<div id="subContainer">
+    <input type="text" id="value1" name="value1" value=""/> -
+    <input type="text" id="value2" name="value2" value=""/> =
     <input type="text" id="answer" name="answer" value=""/>
     <input type="button" name="Submit" value="Submit" onclick="subtractNumbers()"/>
 </div>
 
-    <div id="addContainer">
-    <input type="text" id="addNum1">
-    +
-    <input type="text" id="addNum2">
-    =
+<div id="addContainer">
+    <input type="text" id="addNum1"> +
+    <input type="text" id="addNum2"> =
     <input type="text" id="addTotal">
     <button id="addButton" onclick="addNumbers()">Submit</button>
-    </div>
-    <table>
-        <tr>
-        <td> <input type="text" name="a" id="first"> / </td>
-        <td> <input type="text" name="b" id="second"> = </td>
-        <td> <input type="text" name="c" id="third"> </td>
-        <td> <button onclick= "div()" >Submit</button> </td>
-        </tr>
-    </table>
-    <div id= "div"></div>
-    <input type="number" id="multi-number1"> * <input type="number" id="multi-number2"> = <input type="number" id="multiAnswer"><button onclick="multiFunction(event)">Submit</button>
+</div>
+
+<div id="divContainer">
+    <input type="text" name="a" id="first"> /
+    <input type="text" name="b" id="second"> = 
+    <input type="text" name="c" id="third">
+    <button onclick= "div()" >Submit</button>
+</div>
+    
+<div id= "multiContainer">
+    <input type="number" id="multi-number1"> * 
+    <input type="number" id="multi-number2"> = 
+    <input type="number" id="multiAnswer">
+    <button onclick="multiFunction(event)">Submit</button>
+</div>
 
     <script src="./script.js"></script>
 </body>
